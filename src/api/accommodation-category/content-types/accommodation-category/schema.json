@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accommodation_categories",
+  "info": {
+    "singularName": "accommodation-category",
+    "pluralName": "accommodation-categories",
+    "displayName": "Catégories de logement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "accommodations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::accommodation.accommodation",
+      "mappedBy": "accommodation_category"
+    }
+  }
+}

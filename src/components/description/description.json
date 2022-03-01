@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_description_descriptions",
+  "info": {
+    "displayName": "Description",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "Environnement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::environment.environment"
+    }
+  }
+}

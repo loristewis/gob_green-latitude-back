@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moyens_de_transports",
+  "info": {
+    "singularName": "moyens-de-transport",
+    "pluralName": "moyens-de-transports",
+    "displayName": "Moyens de transport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "integer"
+    },
+    "wellness": {
+      "type": "integer"
+    },
+    "pollution": {
+      "type": "integer"
+    },
+    "premium_option": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::moyens-de-transport.moyens-de-transport",
+      "inversedBy": "lowcost_option"
+    },
+    "lowcost_option": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::moyens-de-transport.moyens-de-transport",
+      "inversedBy": "premium_option"
+    }
+  }
+}
