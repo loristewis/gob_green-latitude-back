@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transport_options",
+  "info": {
+    "singularName": "transport-option",
+    "pluralName": "transport-options",
+    "displayName": "Options transport"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

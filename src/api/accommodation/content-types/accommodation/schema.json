@@ -4,7 +4,7 @@
   "info": {
     "singularName": "accommodation",
     "pluralName": "accommodations",
-    "displayName": "Logement",
+    "displayName": "Hébergement",
     "description": ""
   },
   "options": {
@@ -44,10 +44,10 @@
       "target": "api::accommodation-category.accommodation-category",
       "inversedBy": "accommodations"
     },
-    "environnements": {
+    "destinations": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::environment.environment",
+      "target": "api::destination.destination",
       "inversedBy": "accommodations"
     }
   }

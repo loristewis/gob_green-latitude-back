@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "budget": {
-      "type": "integer"
-    },
-    "distance": {
-      "type": "integer"
-    },
     "environnements": {
       "type": "relation",
       "relation": "manyToMany",
@@ -31,7 +25,35 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::activity.activity",
+      "mappedBy": "destinations"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "bof",
+        "loin",
+        "cher"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "transports": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transport.transport",
       "inversedBy": "destinations"
+    },
+    "accommodations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::accommodation.accommodation",
+      "mappedBy": "destinations"
     }
   }
 }

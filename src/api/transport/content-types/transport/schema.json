@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "moyens_de_transports",
+  "collectionName": "transports",
   "info": {
-    "singularName": "moyens-de-transport",
-    "pluralName": "moyens-de-transports",
+    "singularName": "transport",
+    "pluralName": "transports",
     "displayName": "Moyens de transport",
     "description": ""
   },
@@ -15,6 +15,9 @@
     "title": {
       "type": "string"
     },
+    "description": {
+      "type": "text"
+    },
     "budget": {
       "type": "integer"
     },
@@ -24,17 +27,16 @@
     "pollution": {
       "type": "integer"
     },
-    "premium_option": {
+    "options": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::moyens-de-transport.moyens-de-transport",
-      "inversedBy": "lowcost_option"
+      "relation": "oneToMany",
+      "target": "api::transport-option.transport-option"
     },
-    "lowcost_option": {
+    "destinations": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::moyens-de-transport.moyens-de-transport",
-      "inversedBy": "premium_option"
+      "relation": "manyToMany",
+      "target": "api::destination.destination",
+      "mappedBy": "transports"
     }
   }
 }

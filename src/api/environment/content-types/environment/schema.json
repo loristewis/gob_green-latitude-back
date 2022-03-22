@@ -20,12 +20,6 @@
       "relation": "manyToMany",
       "target": "api::destination.destination",
       "mappedBy": "environnements"
-    },
-    "accommodations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::accommodation.accommodation",
-      "inversedBy": "environnements"
     }
   }
 }
