@@ -57,6 +57,16 @@
     },
     "thoughts": {
       "type": "text"
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "es",
+        "fr",
+        "it",
+        "jp"
+      ]
     }
   }
 }
