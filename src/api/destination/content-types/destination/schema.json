@@ -54,6 +54,9 @@
       "relation": "manyToMany",
       "target": "api::accommodation.accommodation",
       "mappedBy": "destinations"
+    },
+    "thoughts": {
+      "type": "text"
     }
   }
 }
