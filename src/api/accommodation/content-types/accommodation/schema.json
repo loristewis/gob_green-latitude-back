@@ -38,12 +38,6 @@
         "audios"
       ]
     },
-    "accommodation_category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::accommodation-category.accommodation-category",
-      "inversedBy": "accommodations"
-    },
     "destinations": {
       "type": "relation",
       "relation": "manyToMany",

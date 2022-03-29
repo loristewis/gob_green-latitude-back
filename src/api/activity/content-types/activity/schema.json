@@ -27,12 +27,6 @@
     "wellness": {
       "type": "integer"
     },
-    "activities_category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::activities-category.activities-category",
-      "inversedBy": "activities"
-    },
     "wishes": {
       "type": "relation",
       "relation": "manyToMany",
