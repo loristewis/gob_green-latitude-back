@@ -1,0 +1,42 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Green Latitude - API docs",
+    "description": "",
+    "termsOfService": "",
+    "contact": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
+    "license": {}
+  },
+  "x-strapi-config": {
+    "path": "/documentation",
+    "showGeneratedFiles": true,
+    "pluginsForWhichToGenerateDoc": []
+  },
+  "servers": [
+    {
+      "url": "http://localhost:1337",
+      "description": "Development server"
+    },
+    {
+      "url": "https://green-latitude.herokuapp.com",
+      "description": "Production server"
+    }
+  ],
+  "externalDocs": {
+    "description": "Strapi docs",
+    "url": "https://strapi.io/documentation/"
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "paths": {},
+  "tags": [],
+  "components": {}
+}
