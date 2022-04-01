@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3144,11 +3145,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/destinations"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6185,6 +6187,7 @@
           "Destination"
         ],
         "parameters": [],
+        "operationId": "post/destinations",
         "requestBody": {
           "required": true,
           "content": {
@@ -6328,6 +6331,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -9375,11 +9379,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/destinations/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12427,6 +12432,7 @@
             }
           }
         ],
+        "operationId": "put/destinations/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -12568,6 +12574,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12738,7 +12745,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/destinations/{id}"
       }
     }
   }

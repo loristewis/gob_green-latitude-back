@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3078,11 +3079,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/accommodations"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -6053,6 +6055,7 @@
           "Accommodation"
         ],
         "parameters": [],
+        "operationId": "post/accommodations",
         "requestBody": {
           "required": true,
           "content": {
@@ -6148,6 +6151,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -9129,11 +9133,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/accommodations/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12115,6 +12120,7 @@
             }
           }
         ],
+        "operationId": "put/accommodations/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -12208,6 +12214,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -12378,7 +12385,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/accommodations/{id}"
       }
     }
   }

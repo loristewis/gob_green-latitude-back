@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2728,11 +2729,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/transports"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -5353,6 +5355,7 @@
           "Transport"
         ],
         "parameters": [],
+        "operationId": "post/transports",
         "requestBody": {
           "required": true,
           "content": {
@@ -5451,6 +5454,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -8082,11 +8086,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/transports/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -10718,6 +10723,7 @@
             }
           }
         ],
+        "operationId": "put/transports/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -10814,6 +10820,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -10984,7 +10991,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/transports/{id}"
       }
     }
   }

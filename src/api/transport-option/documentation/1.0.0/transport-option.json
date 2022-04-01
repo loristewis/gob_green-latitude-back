@@ -4,6 +4,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -955,11 +956,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/transport-options"
       },
       "post": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -1807,6 +1809,7 @@
           "Transport-option"
         ],
         "parameters": [],
+        "operationId": "post/transport-options",
         "requestBody": {
           "required": true,
           "content": {
@@ -1879,6 +1882,7 @@
       "get": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -2737,11 +2741,12 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "get/transport-options/{id}"
       },
       "put": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3600,6 +3605,7 @@
             }
           }
         ],
+        "operationId": "put/transport-options/{id}",
         "requestBody": {
           "required": true,
           "content": {
@@ -3670,6 +3676,7 @@
       "delete": {
         "responses": {
           "200": {
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -3840,7 +3847,7 @@
             }
           }
         ],
-        "requestBody": {}
+        "operationId": "delete/transport-options/{id}"
       }
     }
   }
