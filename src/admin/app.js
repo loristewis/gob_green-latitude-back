@@ -1,5 +1,24 @@
+import favicon from './extensions/favicon.ico';
+import logo from './extensions/android-chrome-512x512.png';
+
 export default {
   config: {
+    head: {
+      favicon: favicon
+    },
+    menu: {
+      logo: logo
+    },
+    auth: {
+      logo: logo
+    },
+    translations: {
+      en: {
+        'Auth.form.welcome.title': 'Green Latitude',
+        'app.components.LeftMenu.navbrand.title': 'Green Latitude',
+        'app.components.LeftMenu.navbrand.workplace': 'Strapi Dashboard'
+      }
+    },
     locales: [
       // 'ar',
       // 'fr',
