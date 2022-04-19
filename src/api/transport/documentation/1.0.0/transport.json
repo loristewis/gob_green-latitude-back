@@ -745,6 +745,9 @@
                                             "title": {
                                               "type": "string"
                                             },
+                                            "description": {
+                                              "type": "string"
+                                            },
                                             "environnements": {
                                               "type": "object",
                                               "properties": {
@@ -3473,6 +3476,9 @@
                                           "title": {
                                             "type": "string"
                                           },
+                                          "description": {
+                                            "type": "string"
+                                          },
                                           "environnements": {
                                             "type": "object",
                                             "properties": {
@@ -6193,6 +6199,9 @@
                                           "title": {
                                             "type": "string"
                                           },
+                                          "description": {
+                                            "type": "string"
+                                          },
                                           "environnements": {
                                             "type": "object",
                                             "properties": {
@@ -8828,6 +8837,9 @@
                                         "type": "object",
                                         "properties": {
                                           "title": {
+                                            "type": "string"
+                                          },
+                                          "description": {
                                             "type": "string"
                                           },
                                           "environnements": {
