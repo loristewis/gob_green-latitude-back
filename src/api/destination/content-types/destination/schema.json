@@ -15,6 +15,9 @@
     "title": {
       "type": "string"
     },
+    "description": {
+      "type": "text"
+    },
     "environnements": {
       "type": "relation",
       "relation": "manyToMany",
