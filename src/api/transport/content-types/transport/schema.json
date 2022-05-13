@@ -40,6 +40,12 @@
     },
     "pollution": {
       "type": "integer"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "inversedBy": "transports"
     }
   }
 }

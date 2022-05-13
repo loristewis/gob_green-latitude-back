@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Péripéties / Événements"
+    "displayName": "Péripéties / Événements",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -88,6 +89,24 @@
     },
     "choice2_outcomeB_wellness": {
       "type": "integer"
+    },
+    "destinations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::destination.destination",
+      "inversedBy": "events"
+    },
+    "accommodations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::accommodation.accommodation",
+      "inversedBy": "events"
+    },
+    "transports": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transport.transport",
+      "inversedBy": "events"
     }
   }
 }

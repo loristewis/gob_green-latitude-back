@@ -46,6 +46,12 @@
     },
     "thoughts": {
       "type": "text"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "inversedBy": "accommodations"
     }
   }
 }
