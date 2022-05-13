@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Péripéties / Événements"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "choice1_title": {
+      "type": "string"
+    },
+    "choice1_outcomeA_title": {
+      "type": "string"
+    },
+    "choice1_outcomeA_description": {
+      "type": "text"
+    },
+    "choice1_outcomeA_budget": {
+      "type": "integer"
+    },
+    "choice1_outcomeA_pollution": {
+      "type": "integer"
+    },
+    "choice1_outcomeA_wellness": {
+      "type": "integer"
+    },
+    "choice1_outcomeA_probability": {
+      "type": "integer"
+    },
+    "choice1_outcomeB_description": {
+      "type": "text"
+    },
+    "choice1_outcomeB_budget": {
+      "type": "integer"
+    },
+    "choice1_outcomeB_pollution": {
+      "type": "integer"
+    },
+    "choice1_outcomeB_wellness": {
+      "type": "integer"
+    },
+    "choice2_title": {
+      "type": "string"
+    },
+    "choice2_outcomeA_title": {
+      "type": "string"
+    },
+    "choice2_outcomeA_description": {
+      "type": "text"
+    },
+    "choice2_outcomeA_budget": {
+      "type": "integer"
+    },
+    "choice2_outcomeA_pollution": {
+      "type": "integer"
+    },
+    "choice2_outcomeA_wellness": {
+      "type": "integer"
+    },
+    "choice2_outcomeA_probability": {
+      "type": "integer"
+    },
+    "choice2_outcomeB_description": {
+      "type": "text"
+    },
+    "choice2_outcomeB_budget": {
+      "type": "integer"
+    },
+    "choice2_outcomeB_pollution": {
+      "type": "integer"
+    },
+    "choice2_outcomeB_wellness": {
+      "type": "integer"
+    }
+  }
+}

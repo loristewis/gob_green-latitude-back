@@ -4,7 +4,8 @@
   "info": {
     "singularName": "transport-option",
     "pluralName": "transport-options",
-    "displayName": "Options transport"
+    "displayName": "Options transport",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,17 +16,19 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "richtext"
     },
     "tagline": {
       "type": "string"
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+    "budget": {
+      "type": "integer"
+    },
+    "wellness": {
+      "type": "integer"
+    },
+    "pollution": {
+      "type": "integer"
     }
   }
 }

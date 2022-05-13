@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities_categories",
+  "info": {
+    "singularName": "activities-category",
+    "pluralName": "activities-categories",
+    "displayName": "Catégories d'activité",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::activity.activity",
+      "inversedBy": "categories"
+    }
+  }
+}

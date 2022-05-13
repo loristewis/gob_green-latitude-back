@@ -18,15 +18,6 @@
     "description": {
       "type": "text"
     },
-    "budget": {
-      "type": "integer"
-    },
-    "wellness": {
-      "type": "integer"
-    },
-    "pollution": {
-      "type": "integer"
-    },
     "options": {
       "type": "relation",
       "relation": "oneToMany",

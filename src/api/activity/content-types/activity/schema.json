@@ -49,6 +49,42 @@
     },
     "thoughts": {
       "type": "text"
+    },
+    "outcomeA_title": {
+      "type": "string"
+    },
+    "outcomeA_description": {
+      "type": "text"
+    },
+    "outcomeA_budget": {
+      "type": "integer"
+    },
+    "outcomeA_pollution": {
+      "type": "integer"
+    },
+    "outcomeA_wellness": {
+      "type": "integer"
+    },
+    "outcomeA_probability": {
+      "type": "integer"
+    },
+    "outcomeB_description": {
+      "type": "text"
+    },
+    "outcomeB_budget": {
+      "type": "integer"
+    },
+    "outcomeB_pollution": {
+      "type": "integer"
+    },
+    "outcomeB_wellness": {
+      "type": "integer"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::activities-category.activities-category",
+      "inversedBy": "activities"
     }
   }
 }
