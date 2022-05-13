@@ -38,6 +38,9 @@
     "choice1_outcomeA_probability": {
       "type": "integer"
     },
+    "choice1_outcomeB_title": {
+      "type": "string"
+    },
     "choice1_outcomeB_description": {
       "type": "text"
     },
@@ -70,6 +73,9 @@
     },
     "choice2_outcomeA_probability": {
       "type": "integer"
+    },
+    "choice2_outcomeB_title": {
+      "type": "string"
     },
     "choice2_outcomeB_description": {
       "type": "text"
