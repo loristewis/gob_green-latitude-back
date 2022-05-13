@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_avantages",
+  "info": {
+    "displayName": "Avantages",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

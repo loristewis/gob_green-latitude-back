@@ -16,7 +16,7 @@
       "type": "string"
     },
     "description": {
-      "type": "richtext"
+      "type": "text"
     },
     "tagline": {
       "type": "string"
@@ -29,6 +29,12 @@
     },
     "pollution": {
       "type": "integer"
+    },
+    "perks": {
+      "displayName": "Avantages",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.avantages"
     }
   }
 }
