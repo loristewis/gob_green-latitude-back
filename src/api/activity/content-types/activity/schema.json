@@ -68,6 +68,9 @@
     "outcomeA_probability": {
       "type": "integer"
     },
+    "outcomeB_title": {
+      "type": "string"
+    },
     "outcomeB_description": {
       "type": "text"
     },
