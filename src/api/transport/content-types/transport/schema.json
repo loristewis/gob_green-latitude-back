@@ -45,7 +45,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::event.event",
-      "inversedBy": "transports"
+      "mappedBy": "transports"
     }
   }
 }

@@ -75,7 +75,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::event.event",
-      "inversedBy": "destinations"
+      "mappedBy": "destinations"
     }
   }
 }
