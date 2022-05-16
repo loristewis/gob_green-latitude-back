@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_events_outcomes",
+  "info": {
+    "displayName": "Outcomes",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "budget": {
+      "type": "integer"
+    },
+    "pollution": {
+      "type": "integer"
+    },
+    "wellness": {
+      "type": "integer"
+    }
+  }
+}
