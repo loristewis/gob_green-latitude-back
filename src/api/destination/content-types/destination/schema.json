@@ -71,11 +71,11 @@
         "jp"
       ]
     },
-    "events": {
+    "incidents": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::event.event",
-      "mappedBy": "destinations"
+      "target": "api::incident.incident",
+      "inversedBy": "destinations"
     }
   }
 }

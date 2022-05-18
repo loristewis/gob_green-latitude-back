@@ -47,11 +47,11 @@
     "thoughts": {
       "type": "text"
     },
-    "events": {
+    "incidents": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::event.event",
-      "mappedBy": "accommodations"
+      "target": "api::incident.incident",
+      "inversedBy": "accommodations"
     }
   }
 }

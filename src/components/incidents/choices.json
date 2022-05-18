@@ -16,7 +16,7 @@
     "outcomes": {
       "type": "component",
       "repeatable": true,
-      "component": "events.outcomes",
+      "component": "incidents.outcomes",
       "max": 2,
       "min": 1
     }

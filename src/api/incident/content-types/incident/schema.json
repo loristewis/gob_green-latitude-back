@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "events",
+  "collectionName": "incidents",
   "info": {
-    "singularName": "event",
-    "pluralName": "events",
-    "displayName": "Péripéties / Événements",
+    "singularName": "incident",
+    "pluralName": "incidents",
+    "displayName": "Incidents",
     "description": ""
   },
   "options": {
@@ -18,30 +18,30 @@
     "description": {
       "type": "text"
     },
+    "choices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "incidents.choices",
+      "max": 2,
+      "min": 1
+    },
     "destinations": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::destination.destination",
-      "inversedBy": "events"
+      "inversedBy": "incidents"
     },
     "accommodations": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::accommodation.accommodation",
-      "inversedBy": "events"
+      "inversedBy": "incidents"
     },
     "transports": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::transport.transport",
-      "inversedBy": "events"
-    },
-    "choices": {
-      "type": "component",
-      "repeatable": true,
-      "component": "events.choices",
-      "max": 2,
-      "min": 1
+      "inversedBy": "incidents"
     }
   }
 }

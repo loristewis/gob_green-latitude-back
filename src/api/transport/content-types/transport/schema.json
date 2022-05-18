@@ -41,11 +41,11 @@
     "pollution": {
       "type": "integer"
     },
-    "events": {
+    "incidents": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::event.event",
-      "mappedBy": "transports"
+      "target": "api::incident.incident",
+      "inversedBy": "transports"
     }
   }
 }
