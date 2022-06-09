@@ -76,6 +76,20 @@
       "relation": "manyToMany",
       "target": "api::incident.incident",
       "inversedBy": "destinations"
+    },
+    "image_victory": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_defeat": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

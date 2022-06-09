@@ -29,7 +29,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::destination.destination",
-      "inversedBy": "incidents"
+      "mappedBy": "incidents"
     },
     "accommodations": {
       "type": "relation",
